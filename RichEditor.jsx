@@ -6,7 +6,7 @@ import { convertFromHTML, ContentState,convertToRaw,EditorState} from 'draft-js'
 import _ from 'lodash';
 import deepEqual from '../../common/deepEqual';
 import draftToHtml from 'draftjs-to-html';
-import '../../less/XyzRichEditor.less';
+import './less/RichEditor.less';
 
 
 const FormItem = Form.Item;
