@@ -34,7 +34,7 @@ export default class RichEditorEdit extends React.Component {
                         toolbarOnFocus={true}
                         readOnly={false}
                         placeholder="please input XXX"
-                        eleType="edit"//edit or view
+                        eleType="edit"//controlle by formItem and with css
                     />
                 </Form>
             </div>
